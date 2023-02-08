@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct TrekrApp: App {
     @StateObject var locations = Locations()
-    @State private var selection = 2
+    @State private var selection = 1
     
     var body: some Scene {
         WindowGroup {
